@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* background: linear-gradient(45deg, #1d3a88, #76a1b3, #865243, #3f9c71); */
+    /* background-size: 200% 300%; */
+    /* animation: gradientBG 10s infinite alternate; */
+    background: rgb(236, 236, 236);
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    padding: 60px;
+    border: 0px;;
+    border-radius: 10px;
+}
+
+h1 {
+    background: #ff66a3;
+    color: rgb(0, 0, 0);
+    border: black 3px solid;
+    padding: 15px;
+    margin-bottom: 50px;
+    box-shadow: 13px 13px 0 black;
+}
+
+h1:hover {
+    translate: -6px
+}
+
+#taskInput {
+    color: black;
+    background: white;
+    border: black 3px solid;
+    padding: 5px 10px;
+    margin: 10px;
+    font-weight: 550;
+    box-shadow: 3px 3px 0 black;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-weight: 550;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+#addTaskBtn {
+    background: #4ade80;
+    color: rgb(0, 0, 0);
+    border: black 3px solid;
+    padding: 5px 10px;
+    margin: 10px;
+    font-weight: 600;
+    box-shadow: 3px 3px 0 black;
+    font-size: 16px;
+}
+
+#addTaskBtn:hover {
+    background: #1ac2ff;
+    cursor: pointer;
+}
+
+#addTaskBtn:active,
+.deleteBtn:active {
+    box-shadow: 1.5px 1.5px 0 black;
+    translate: 1.5px 1.5px;
+}
+
+.deleteBtn {
+    background: #ff006a;
+    color: rgb(0, 0, 0);
+    border: black 3px solid;
+    padding: 3px 10px;
+    font-weight: 600;
+    box-shadow: 3px 3px 0 black;
+}
+
+
